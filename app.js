@@ -2,21 +2,19 @@ const express = require('express');
 const app = express();
 const data = require('./data.json'); 
 const projects = data.projects;
-const router = express.Router();
 
-app.use('/', router);
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => {    // renders the home page, passing projects into it
 	res.render('index', { projects });
 });
 
-app.get('/about', (req, res) => {
+app.get('/about', (req, res) => {   // renders the about page
 	res.render('about');
 });
 
-router.get('/:id', (req, res) => {
+app.get('/:id', (req, res) => {    // dynamically renders each project page through the id number
 	res.render('project', {
 		id: req.params.id,
 		name: projects[req.params.id].project_name,
@@ -41,6 +39,6 @@ app.use((err, req, res, next) => {   // error handler
 	console.log(err.message, err.status);
 });
 
-app.listen(3000, () => {
+app.listen(3000, () => {  // listening on 3000 and logging the info
 	console.log('The application is running on localhost:3000.');
 });
