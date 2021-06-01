@@ -14,31 +14,35 @@ app.get('/about', (req, res) => {   // renders the about page
 	res.render('about');
 });
 
-app.get('/:id', (req, res) => {    // dynamically renders each project page through the id number
+app.get('/project/:id', (req, res) => {    // dynamically renders each project page through the id number
 	res.render('project', {
 		id: req.params.id,
-		name: projects[req.params.id].project_name,
-		description: projects[req.params.id].description,
-		technologies: projects[req.params.id].technologies,
-		live_link: projects[req.params.id].live_link,
-		github_link: projects[req.params.id].github_link,
-		image_urls: projects[req.params.id].image_urls
+		name: data.projects[req.params.id].project_name,
+		description: data.projects[req.params.id].description,
+		technologies: data.projects[req.params.id].technologies,
+		live_link: data.projects[req.params.id].live_link,
+		github_link: data.projects[req.params.id].github_link,
+		image_urls: data.projects[req.params.id].image_urls
 	});
 });
 
-app.use((req, res, next) => {   // 404 handler
-	const err = new Error("Page Not Found");
+app.use(function (req,res,next){
+	res.status(404).send('Page Not Found');
+	const err = new Error('Not found');
 	err.status = 404;
-	console.log(err.message, err.status);
+	console.log(err.status, err.message);
 	next(err);
 });
 
-app.use((err, req, res, next) => {   // error handler
+app.use(function (err, req, res, next){   // error handler
 	res.locals.error = err;
 	res.status(err.status);
-	console.log(err.message, err.status);
+	if (err.status != 404) {  // this handler still caught 404s, so this stops there from being two logs for the same error
+		err.message = "Something went wrong!"
+		console.log(err.status, err.message);
+	}
 });
 
 app.listen(3000, () => {  // listening on 3000 and logging the info
 	console.log('The application is running on localhost:3000.');
-});
+}); 
