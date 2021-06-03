@@ -14,7 +14,7 @@ app.get('/about', (req, res) => {   // renders the about page
 	res.render('about');
 });
 
-app.get('/project/:id', (req, res) => {    // dynamically renders each project page through the id number
+app.get('/project/:id', (req, res) => {    // dynamically renders each project page through the id number.
 	res.render('project', {
 		id: req.params.id,
 		name: data.projects[req.params.id].project_name,
