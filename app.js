@@ -3,6 +3,7 @@ const app = express();
 const data = require('./data.json'); 
 const projects = data.projects;
 
+
 app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
