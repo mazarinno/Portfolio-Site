@@ -5,7 +5,7 @@ const projects = data.projects;
 
 
 app.set('view engine', 'pug');
-app.use('/static', express.static('public'));
+app.use('/static', express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {    // renders the home page, passing projects into it
 	res.render('index', { projects });
