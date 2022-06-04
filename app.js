@@ -14,6 +14,10 @@ app.get('/about', (req, res) => {   // renders the about page
 	res.render('about');
 });
 
+app.get('/resume', (req, res) => {   // renders the resume page
+	res.render('resume');
+});
+
 app.get('/project/:id', (req, res) => {    // dynamically renders each project page through the id number.
 	res.render('project', {
 		id: req.params.id,

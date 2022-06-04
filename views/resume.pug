@@ -1,0 +1,22 @@
+extends layout.pug
+
+block content
+
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  article.portfolio-about
+    .inner-wrapper.flex-row-wrap.two-col
+      .about-intro-box.box
+        h1 My resume
+
+        .about-bio
+
+          embed(src='/static/images/Resume.pdf' type='application/pdf' width='100%' height='600px')
+
+    nav.nav
+      a(href='/')
+        span &larr;
+        |  Back
