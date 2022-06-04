@@ -1,2 +1,3 @@
-# Static-Node.js-and-Express-Site
-Static Node.js and Express Site project for treehouse project 6
+# Portfolio Site
+
+My portfolio site made using Node.js and Express.
