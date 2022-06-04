@@ -48,6 +48,6 @@ app.use(function (err, req, res, next){   // error handler
 	}
 });
 
-app.listen((process.env.PORT), () => {  // listening on 3000 and logging the info
+app.listen((process.env.PORT || 3000), () => {  // listening on 3000 and logging the info
 	console.log('The application is running on localhost:3000.');
 }); 
