@@ -7,7 +7,7 @@
 		"technologies": ["CSS", "HTML", "JavaScript"],
 		"live_link": "https://mazarinno.github.io/Random-Quote-Generator/",
 		"github_link": "https://github.com/mazarinno/Random-Quote-Generator",
-		"image_urls": ["/images/quotegen", "/images/quotegentwo"]
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331222/quotegen_numuc9.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331222/quotegentwo_kjqcwh.png"]
 	},
 	{
 		"id": 1,
@@ -16,7 +16,7 @@
 		"technologies": ["CSS", "HTML", "JavaScript"],
 		"live_link": "https://mazarinno.github.io/Data-Pagination/",
 		"github_link": "https://github.com/mazarinno/Data-Pagination",
-		"image_urls": ["/images/pagination", "/images/paginationtwo"]
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/pagination_ne9uiz.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331222/paginationtwo_uhbb1a.png"]
 	},
 	{
 		"id": 2,
@@ -25,7 +25,7 @@
 		"technologies": ["CSS", "HTML", "JavaScript"],
 		"live_link": "https://mazarinno.github.io/interactive_form/",
 		"github_link": "https://github.com/mazarinno/interactive_form",
-		"image_urls": ["/images/form", "/images/formtwo"]
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/form_olymxm.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/formtwo_wizq2e.png"]
 	},
 	{
 		"id": 3,
@@ -34,7 +34,7 @@
 		"technologies": ["CSS", "HTML", "JavaScript"],
 		"live_link": "https://mazarinno.github.io/OOP-Game-Show-App/",
 		"github_link": "https://github.com/mazarinno/OOP-Game-Show-App",
-		"image_urls": ["/images/game", "/images/gametwo"]
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/game_qoxouj.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/gametwo_ko4pre.png"]
 	},
 	{
 		"id": 4,
@@ -43,6 +43,6 @@
 		"technologies": ["CSS", "HTML", "JavaScript"],
 		"live_link": "https://mazarinno.github.io/Public-API-Requests/",
 		"github_link": "https://github.com/mazarinno/Public-API-Requests",
-		"image_urls": ["/images/api", "/images/apitwo"]
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/api_m5xfc4.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/apitwo_f1jrja.png"]
 	}] 
 }
