@@ -2,21 +2,29 @@
   "projects":
 	[{
 		"id": 0,
-		"project_name": "Random Quote Generator",
-		"description": "Randomly generates a quote at the press of a button.",
-		"technologies": ["CSS", "HTML", "JavaScript"],
-		"live_link": "https://mazarinno.github.io/Random-Quote-Generator/",
-		"github_link": "https://github.com/mazarinno/Random-Quote-Generator",
-		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331222/quotegen_numuc9.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331222/quotegentwo_kjqcwh.png"]
+		"project_name": "Course Database",
+		"description": "With an API I built in a previous project, I used React to implement the front end and create the final product, which works as a database of classes for a school. This project features user sign-up, sign-in, and sign-out functionality using basic authentication and database operations which can be performed by those users. It was built using React, JSX, React Router, React Context API, and Create React App.",
+		"technologies": ["JavaScript", "API", "HTML", "CSS", "React", "React Router", "Sqlite", "Sequelize", "Express", "Pug"],
+		"github_link": "https://github.com/mazarinno/React-and-REST-API",
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/api_m5xfc4.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/apitwo_f1jrja.png"]
 	},
 	{
 		"id": 1,
-		"project_name": "Data Pagination",
-		"description": "Displaying data using pagination.",
-		"technologies": ["CSS", "HTML", "JavaScript"],
-		"live_link": "https://mazarinno.github.io/Data-Pagination/",
-		"github_link": "https://github.com/mazarinno/Data-Pagination",
-		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/pagination_ne9uiz.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331222/paginationtwo_uhbb1a.png"]
+		"project_name": "Employee Directory",
+		"description": "An interactive directory made up of randomly generated people using the random user generator API. Click on each employee to bring up more information. Refreshing the page re-populates the data with new random people.",
+		"technologies": ["JavaScript", "API", "HTML", "CSS"],
+		"live_link": "https://mazarinno.github.io/Public-API-Requests/",
+		"github_link": "https://github.com/mazarinno/Public-API-Requests",
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/api_m5xfc4.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/apitwo_f1jrja.png"]
+	},
+	{
+		"id": 1,
+		"project_name": "Gallery React App",
+		"description": "A site made using React and Flickr's API which allows users to search for images.",
+		"technologies": ["JavaScript", "React", "React Router", "nodejs", "HTML", "CSS"],
+		"live_link": "https://reactgallery.herokuapp.com/",
+		"github_link": "https://github.com/mazarinno/Gallery-React-App",
+		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654383156/gallery_lphxal.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654383156/gallerytwo_x82wje.png"]
 	},
 	{
 		"id": 2,
@@ -35,14 +43,5 @@
 		"live_link": "https://mazarinno.github.io/OOP-Game-Show-App/",
 		"github_link": "https://github.com/mazarinno/OOP-Game-Show-App",
 		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/game_qoxouj.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/gametwo_ko4pre.png"]
-	},
-	{
-		"id": 4,
-		"project_name": "Employee Directory",
-		"description": "Fake employee directory made using one request from random user API.",
-		"technologies": ["CSS", "HTML", "JavaScript"],
-		"live_link": "https://mazarinno.github.io/Public-API-Requests/",
-		"github_link": "https://github.com/mazarinno/Public-API-Requests",
-		"image_urls": ["https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/api_m5xfc4.png", "https://res.cloudinary.com/dthaxkjh3/image/upload/v1654331221/apitwo_f1jrja.png"]
 	}] 
 }
